@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Brrowsers setup completed]]>
+    </line>
+    <line>
+      <![CDATA[test]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="76722" started-at="2019-07-02T17:43:42Z" finished-at="2019-07-02T17:44:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="76722" started-at="2019-07-02T17:43:42Z" finished-at="2019-07-02T17:44:59Z">
+      <class name="com.flipkart.testcases.SignUp">
+        <test-method status="PASS" signature="setUpSuit()[pri:0, instance:com.flipkart.testcases.SignUp@675d3402]" name="setUpSuit" is-config="true" duration-ms="2077" started-at="2019-07-02T23:13:40Z" finished-at="2019-07-02T23:13:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuit -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.flipkart.testcases.SignUp@675d3402]" name="setup" is-config="true" duration-ms="62155" started-at="2019-07-02T23:13:42Z" finished-at="2019-07-02T23:14:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Brrowsers setup completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="openSignup()[pri:0, instance:com.flipkart.testcases.SignUp@675d3402]" name="openSignup" duration-ms="10590" started-at="2019-07-02T23:14:44Z" finished-at="2019-07-02T23:14:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openSignup -->
+        <test-method status="PASS" signature="screenonFailure(org.testng.ITestResult)[pri:0, instance:com.flipkart.testcases.SignUp@675d3402]" name="screenonFailure" is-config="true" duration-ms="1740" started-at="2019-07-02T23:14:55Z" finished-at="2019-07-02T23:14:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openSignup status=SUCCESS method=SignUp.openSignup()[pri:0, instance:com.flipkart.testcases.SignUp@675d3402] output=test]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenonFailure -->
+        <test-method status="PASS" signature="signup()[pri:0, instance:com.flipkart.testcases.SignUp@675d3402]" name="signup" duration-ms="978" started-at="2019-07-02T23:14:57Z" finished-at="2019-07-02T23:14:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method status="PASS" signature="screenonFailure(org.testng.ITestResult)[pri:0, instance:com.flipkart.testcases.SignUp@675d3402]" name="screenonFailure" is-config="true" duration-ms="113" started-at="2019-07-02T23:14:58Z" finished-at="2019-07-02T23:14:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signup status=SUCCESS method=SignUp.signup()[pri:0, instance:com.flipkart.testcases.SignUp@675d3402] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenonFailure -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.flipkart.testcases.SignUp@675d3402]" name="teardown" is-config="true" duration-ms="1095" started-at="2019-07-02T23:14:58Z" finished-at="2019-07-02T23:14:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.flipkart.testcases.SignUp -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
