@@ -17,7 +17,7 @@ import com.flipkart.utility.ConfigDataProvider;
 import com.flipkart.utility.ExcelDataProvider;
 import com.flipkart.utility.Helper;
 
-public class BaseClass {
+public class BaseClass {//test checkout
 	
 	public WebDriver driver;
 	public ExcelDataProvider excel;
